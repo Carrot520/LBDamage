@@ -1,0 +1,28 @@
+# Build and generated output
+build/
+out/
+classes/
+classes-new/
+*.class
+
+# IDE and tooling
+.idea/
+.vscode/
+*.iml
+
+# Local Minecraft/runtime files
+config/
+logs/
+crash-reports/
+run/
+*.log
+
+# Temporary patching/reverse-engineering files
+_lbdamage_*/
+_*/
+*.bak
+*.tmp
+
+# OS files
+Thumbs.db
+Desktop.ini
