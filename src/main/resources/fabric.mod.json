@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "lbdamage",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "name": "LBDamage",
   "description": "Standalone client-side damage numbers: renders HD Genshin-font damage holograms from entity health changes, with crit detection via crit particles. Works on any server; players without the mod see nothing. No server plugin required.",
   "authors": ["Carrot"],
@@ -12,7 +12,9 @@
     "client": ["com.ribbu.lbdamage.LBDamageClient"]
   },
   "depends": {
-    "fabricloader": ">=0.19.0",
-    "fabric-api": "*"
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": ">=0.159.0+26.2"
   }
 }
