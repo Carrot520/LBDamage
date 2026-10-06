@@ -2,15 +2,14 @@
 
 MC 原神字体伤害显示模组。客户端会把实体生命值变化渲染成浮动伤害数字，并对暴击使用金色高亮。
 
-## 当前版本
+## 下载版本
 
-- Minecraft `26.2`
-- Fabric Loader `0.19.5` 或更高
-- Fabric API
-- Java 25
-- 客户端模组，无需安装服务端插件
+请根据你的 Minecraft 版本选择对应的 Release，两个版本不能混用：
 
-已验证发布包：`release/LBDamage-2.0.0-mc26.2-fabric.jar`
+- Minecraft `26.1.2`：Fabric Loader `0.19.3`，使用 `LBDamage-2.0.0-mc26.1.2-fabric.jar`
+- Minecraft `26.2`：Fabric Loader `0.19.5` 或更高，使用 `LBDamage-2.0.0-mc26.2-fabric.jar`
+
+两个版本均为客户端模组，无需安装服务端插件。26.2 包包含针对新实体系统的修复，不能替代 26.1.2 包。
 
 ## 功能
 
@@ -23,7 +22,7 @@ MC 原神字体伤害显示模组。客户端会把实体生命值变化渲染�
 
 ## 安装
 
-1. 安装与 Minecraft `26.2` 匹配的 Fabric Loader 和 Fabric API。
+1. 安装与目标 Minecraft 版本匹配的 Fabric Loader 和 Fabric API。
 2. 将发布 JAR 放入客户端 `mods` 文件夹。
 3. 启动游戏。首次启动后会生成 `config/lbdamage.properties`。
 
@@ -57,4 +56,4 @@ crit-bold=true
 
 ## 许可证
 
-当前项目为个人项目，暂不授予再分发许可。使用、修改或整合前请先联系作者。
+本项目采用 [MIT License](LICENSE)。你可以自由使用、复制、修改、整合和再分发本模组，包括用于整合包或二次开发，但需要保留原许可证和版权声明。
