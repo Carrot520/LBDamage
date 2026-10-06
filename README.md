@@ -7,9 +7,10 @@ MC 原神字体伤害显示模组。客户端会把实体生命值变化渲染�
 请根据你的 Minecraft 版本选择对应的 Release，两个版本不能混用：
 
 - Minecraft `26.1.2`：Fabric Loader `0.19.3`，使用 `LBDamage-2.0.0-mc26.1.2-fabric.jar`
-- Minecraft `26.2`：Fabric Loader `0.19.5` 或更高，使用 `LBDamage-2.0.0-mc26.2-fabric.jar`
+- Minecraft `26.2`：Fabric Loader `0.19.5` 或更高，使用 `LBDamage-2.0.1-mc26.2-fabric.jar`
 
 两个版本均为客户端模组，无需安装服务端插件。26.2 包包含针对新实体系统的修复，不能替代 26.1.2 包。
+26.2 版本兼容 Fabric API `0.159.0+26.2` 及更高版本。
 
 ## 功能
 
